@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Title of the document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles/styles.css?v=5" />
+  <link rel="stylesheet" type="text/css" href="styles/mymodal.css?v=2" />
+</head>
+
+<body>
+  <main class="main-class" style="max-width: 1500px">
+    <div style="max-width: 1350px">
+      <div style="font-size: 20px; padding-top: 10px; margin: 0">
+        Summary:
+      </div>
+      <div style="padding-top: 5px; padding-bottom: 15px; line-height: 24px">
+        I have 15 years of experience as a web and mobile application developer.
+        I completed the Front-End (2017) and the Back-End (2019) Graduate Certificates at Harvard Extension School.
+        My expertise includes Angular, React, React-Native, Node, Express and GraphQL. Likewise, I have
+        worked with iOS using Objective-C and Swift as well as Android using Java and Kotlin.
+        Moreover, I have experience with Docker, Kubernetes and various caching strategies & databases.
+      </div>
+    </div>
+    <div class="title" style="font-size: 18px; color: rgb(133, 130, 130); padding-top: 10px">
+      IT Graduate Certificates:
+    </div>
+    <!-- ============== start of row-01 ==============  -->
+    <!-- Modal HTML embedded directly into document -->
+
+    <div class="card-flex-wrap">
+      <!-- start of row-01, card-01 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex1").hide();
+            $("#show-cert1").click(function (event) {
+              event.preventDefault();
+              $("#ex1").modal();
+              $("#ex1").show();
+            })
+          });
+        </script>
+
+        <h4 class="title-cert">
+          Front-End Graduate Certificate
+        </h4>
+        <a id="show-cert1" href="#ex1" rel="modal:open">
+          <img src="https://i.imgur.com/sJVmann.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex1" class="modal">
+          <img class="big-image" src="https://i.imgur.com/bXEC9ca.jpg" style="border: 1px solid darkgray;" />
+        </div>
+
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <!-- <a href="https://i.imgur.com/7KmOG1D.jpg" target="_blank" class="alink"> Official TOR</a> -->
+            Official TOR Available
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://tinyurl.com/y8el8pfw" target="_blank" class="alink"><span>Details</span>
+            </a>
+          </span>
+        </div>
+
+      </div>
+      <!-- end of row-01, card-01 -->
+      <!-- start of row-01, card-02 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex2").hide();
+            $("#show-cert2").click(function (event) {
+              event.preventDefault();
+              $("#ex2").modal();
+              $("#ex2").show();
+            })
+          });
+        </script>
+        <h4 class="title-cert">
+          Back-End Graduate Certificate
+        </h4>
+        <a id="show-cert2" href="#ex2" rel="modal:open">
+          <img src="https://i.imgur.com/dyrLS6b.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex2" class="modal">
+          <img class="big-image" src="https://i.imgur.com/XuuVgg3.png" style="border: 1px solid darkgray;" />
+        </div>
+
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <!-- <a href="https://i.imgur.com/hIOosj9.jpg" target="_blank" class="alink"> Official TOR</a> -->
+            Official TOR Available
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://tinyurl.com/ycqs9l4n" target="_blank" class="alink"><span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <!-- start of row-02, card-04 
+           <div class="item" style="margin: 10px">
+            <script>
+              $(document).ready(function() {
+                $("#ex14").hide();
+                $("#show-cert14").click(function(event){
+                  event.preventDefault();
+                  $("#ex14").modal();
+                  $("#ex14").show();
+                })
+              });
+            </script>
+            <h4 class="title-cert">
+              Graduate Courses
+            </h4>
+            <a id="show-cert14" href="#ex14" rel="modal:open">  
+              <img
+                src="https://i.imgur.com/e5fzPMa.png"
+                style="border: 1px solid darkgray; width: 350px; height: 220px"
+              />
+            </a>
+            <div id="ex14" class="modal">
+              <img
+                class="big-image"
+                src="https://i.imgur.com/e5fzPMa.png"
+                style="border: 1px solid darkgray;"
+              />
+            </div>
+            <div style="text-align: center">
+              <span style="color: darkgray">
+                <a
+                  href="https://i.imgur.com/wDVzN9L.jpeg"
+                  target="_blank"
+                  class="alink">
+                  <span>Verify</span>
+                </a>
+              </span>
+              <span style="margin: 0 5px">|</span>
+              <span>
+                <a
+                  href="https://extension.harvard.edu/academics/graduate-certificates"
+                  target="_blank"
+                  class="alink"> 
+                  <span>Details</span>
+                </a>
+              </span>
+            </div>
+          </div>
+          end of row-02, card-04 -->
+      <!-- end of row-01, card-02 -->
+    </div>
+    <!-- end of row-01 -->
+    <div class="title" style="font-size: 18px; color: rgb(133, 130, 130); padding-top: 10px">
+      Other Certificates:
+    </div>
+    <!-- ============== start of row-02 ==============  -->
+    <div class="card-flex-wrap grid-row" style="
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 10px;
+          padding-left: 20px;
+          margin-left: 10px;
+        ">
+      <!-- start of row-02, card-01 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex3a").hide();
+            $("#show-cert3").click(function (event) {
+              event.preventDefault();
+              $("#ex3a").modal();
+              $("#ex3a").show();
+            })
+          });
+        </script>
+        <h4 class="title-cert">
+          Angular 2+</h4>
+        <a id="show-cert3" href="#ex3a" rel="modal:open">
+          <img src="images/certs/angular-developer.jpg" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex3a" class="modal">
+          <img class="big-image" src="images/certs/angular-developer.jpg" style="border: 1px solid darkgray;" />
+        </div>
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://tinyurl.com/wsq7q52" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://online-learning.harvard.edu/course/cs50s-mobile-app-development-react-native"
+              target="_blank" class="alink">
+              <span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-01 -->
+      <!-- start of row-02, card-01 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex3").hide();
+            $("#show-cert3").click(function (event) {
+              event.preventDefault();
+              $("#ex3").modal();
+              $("#ex3").show();
+            })
+          });
+        </script>
+        <h4 class="title-cert">
+          React Native</h4>
+        <a id="show-cert3" href="#ex3" rel="modal:open">
+          <img src="https://i.imgur.com/6JWAlV6.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex3" class="modal">
+          <img class="big-image" src="https://i.imgur.com/6JWAlV6.png" style="border: 1px solid darkgray;" />
+        </div>
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://tinyurl.com/wsq7q52" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://online-learning.harvard.edu/course/cs50s-mobile-app-development-react-native"
+              target="_blank" class="alink">
+              <span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-01 -->
+      <!-- start of row-02, card-08 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex4").hide();
+            $("#show-cert4").click(function (event) {
+              event.preventDefault();
+              $("#ex4").modal();
+              $("#ex4").show();
+            })
+          });
+        </script>
+
+        <h4 class="title-cert">
+          React Nanodegree
+        </h4>
+        <a id="show-cert4" href="#ex4" rel="modal:open">
+          <img src="https://i.imgur.com/CY1OxQ0.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex4" class="modal">
+          <img class="big-image" src="https://i.imgur.com/CY1OxQ0.png" style="border: 1px solid darkgray;" />
+        </div>
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://tinyurl.com/y95w7rfs" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank" class="alink">
+              <span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-08 -->
+      <!-- start of row-02, card-02 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex5").hide();
+            $("#show-cert5").click(function (event) {
+              event.preventDefault();
+              $("#ex5").modal();
+              $("#ex5").show();
+            })
+          });
+        </script>
+        <h4 class="title-cert">
+          GraphQL
+        </h4>
+        <a id="show-cert5" href="#ex5" rel="modal:open">
+          <img src="https://i.imgur.com/HtTGHWN.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex5" class="modal">
+          <img class="big-image" src="https://i.imgur.com/HtTGHWN.png" style="border: 1px solid darkgray;" />
+        </div>
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://tinyurl.com/7j96pbyk" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS141x+1T2021/home" target="_blank"
+              class="alink">
+              <span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-02 -->
+
+      <!-- start of row-02, card-03 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex6").hide();
+            $("#show-cert6").click(function (event) {
+              event.preventDefault();
+              $("#ex6").modal();
+              $("#ex6").show();
+            })
+          });
+        </script>
+
+        <h4 class="title-cert">
+          Javascript with Python
+        </h4>
+        <a id="show-cert6" href="#ex6" rel="modal:open">
+          <img src="https://i.imgur.com/NXgV6dk.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex6" class="modal">
+          <img class="big-image" src="https://i.imgur.com/NXgV6dk.png" style="border: 1px solid darkgray;" />
+        </div>
+
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://tinyurl.com/yy8psq4d" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript" target="_blank"
+              class="alink">
+              <span>Details</span></a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-03 -->
+      <!-- start of row-02, card-02 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex7").hide();
+            $("#show-cert7").click(function (event) {
+              event.preventDefault();
+              $("#ex7").modal();
+              $("#ex7").show();
+            })
+          });
+        </script>
+
+        <h4 class="title-cert">
+          Mobile Apps Professional
+        </h4>
+        <a id="show-cert7" href="#ex7" rel="modal:open">
+          <img src="https://i.imgur.com/UNtfNuo.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex7" class="modal">
+          <img class="big-image" src="https://i.imgur.com/UNtfNuo.png" style="border: 1px solid darkgray;" />
+        </div>
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://tinyurl.com/y4pww5g7" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://www.edx.org/professional-certificate/harvardx-computer-science-and-mobile-apps"
+              target="_blank" class="alink">
+              <span>Details</span></a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-02 -->
+      <!-- start of row-02, card-05 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex8").hide();
+            $("#show-cert8").click(function (event) {
+              event.preventDefault();
+              $("#ex8").modal();
+              $("#ex8").show();
+            })
+          });
+        </script>
+
+        <h4 class="title-cert">
+          iOS with Objective-C
+        </h4>
+        <a id="show-cert8" href="#ex8" rel="modal:open">
+          <img src="https://i.imgur.com/mKcAOhv.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex8" class="modal">
+          <img class="big-image" src="https://i.imgur.com/mKcAOhv.png" style="border: 1px solid darkgray;" />
+        </div>
+
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://bit.ly/2B4cZwG" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://www.coursera.org/specializations/ios-development" target="_blank" class="alink">
+              <span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex9").hide();
+            $("#show-cert9").click(function (event) {
+              event.preventDefault();
+              $("#ex9").modal();
+              $("#ex9").show();
+            })
+          });
+        </script>
+        <h4 class="title-cert">
+          Android Specialization
+        </h4>
+
+        <a id="show-cert9" href="#ex9" rel="modal:open">
+          <img src="https://i.imgur.com/YF2BAuU.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex9" class="modal">
+          <img class="big-image" src="https://i.imgur.com/YF2BAuU.png" style="border: 1px solid darkgray;" />
+        </div>
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://bit.ly/37nquDO" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://www.coursera.org/specializations/android-app-development" target="_blank" class="alink">
+              <span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-05 -->
+      <!-- start of row-02, card-06 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex10").hide();
+            $("#show-cert10").click(function (event) {
+              event.preventDefault();
+              $("#ex10").modal();
+              $("#ex10").show();
+            })
+          });
+        </script>
+        <h4 class="title-cert">
+          iOS Developer Nanodegree
+        </h4>
+        <a id="show-cert10" href="#ex10" rel="modal:open">
+          <img src="https://i.imgur.com/pOdEkdb.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex10" class="modal">
+          <img class="big-image" src="https://i.imgur.com/pOdEkdb.png" style="border: 1px solid darkgray;" />
+        </div>
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://tinyurl.com/w6pjyoj" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://www.udacity.com/course/ios-developer-nanodegree--nd003" target="_blank" class="alink">
+              <span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-06 -->
+      <!-- start of row-02, card-07 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex11").hide();
+            $("#show-cert11").click(function (event) {
+              event.preventDefault();
+              $("#ex11").modal();
+              $("#ex11").show();
+            })
+          });
+        </script>
+        <h4 class="title-cert">
+          Android Developer Nanodegree
+        </h4>
+        <a id="show-cert11" href="#ex11" rel="modal:open">
+          <img src="https://i.imgur.com/H8AsFWS.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex11" class="modal">
+          <img class="big-image" src="https://i.imgur.com/H8AsFWS.png" style="border: 1px solid darkgray;" />
+        </div>
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://tinyurl.com/y8e6u3cn" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801" target="_blank"
+              class="alink">
+              <span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-07 -->
+
+      <!-- start of row-02, card-09 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex12").hide();
+            $("#show-cert12").click(function (event) {
+              event.preventDefault();
+              $("#ex12").modal();
+              $("#ex12").show();
+            })
+          });
+        </script>
+        <h4 class="title-cert">
+          AI with Python Nanodegree
+        </h4>
+        <a id="show-cert12" href="#ex12" rel="modal:open">
+          <img src="https://i.imgur.com/jBDrKYt.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex12" class="modal">
+          <img class="big-image" src="https://i.imgur.com/jBDrKYt.png" style="border: 1px solid darkgray;" />
+        </div>
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://tinyurl.com/ai-with-python" target="_blank" class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://www.udacity.com/course/ai-programming-python-nanodegree--nd089" target="_blank"
+              class="alink">
+              <span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-09 -->
+      <!-- start of row-02, card-04 -->
+      <div class="item" style="margin: 10px">
+        <script>
+          $(document).ready(function () {
+            $("#ex13").hide();
+            $("#show-cert13").click(function (event) {
+              event.preventDefault();
+              $("#ex13").modal();
+              $("#ex13").show();
+            })
+          });
+        </script>
+        <h4 class="title-cert">
+          CS 50
+        </h4>
+        <a id="show-cert13" href="#ex13" rel="modal:open">
+          <img src="https://i.imgur.com/c3OzDkP.png" style="border: 1px solid darkgray; width: 350px; height: 220px" />
+        </a>
+        <div id="ex13" class="modal">
+          <img class="big-image" src="https://i.imgur.com/c3OzDkP.png" style="border: 1px solid darkgray;" />
+        </div>
+        <div style="text-align: center">
+          <span style="color: darkgray">
+            <a href="https://courses.edx.org/certificates/ff36e159220444058189b08bebb1bde2" target="_blank"
+              class="alink">
+              <span>Verify</span>
+            </a>
+          </span>
+          <span style="margin: 0 5px">|</span>
+          <span>
+            <a href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science/" target="_blank"
+              class="alink">
+              <span>Details</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <!-- end of row-02, card-04 -->
+
+    </div>
+    <!-- end of row-02 -->
+    <!-- not included-->
+  </main>
+  <div style="margin-bottom: 300px; margin-top: 40px; text-align: center">
+    &nbsp;
+    <h3>
+      <a href="#top"><img src="https://i.imgur.com/ni1ckcH.png" style="width: 50px; height: 40px" /></a>
+    </h3>
+  </div>
+</body>
+
+</html>

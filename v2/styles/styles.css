@@ -1,0 +1,45 @@
+html, body {
+  font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  color: rgb(132, 130, 130);
+}
+
+.card-flex-wrap {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  align-items: center; 
+  padding: 10px; 
+  padding-left: 20px; 
+  margin-left: 10px;
+}
+
+.header-left-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subtitle {
+  padding-left: 10px; 
+  margin-top:10px; 
+  display: flex; 
+}
+
+.subtitle-image {
+  display: inline; 
+  width: 20px; 
+  height: 20px; 
+  padding-right: 10px;
+}
+
+.alink {
+  color: rgb(58, 130, 157);
+  font-size: 0.85rem;
+}
+
+.title-cert {
+  text-align: center; 
+  opacity: 0.7;
+  color: rgb(75, 106, 75)
+}

@@ -1,0 +1,16 @@
+.jquery-modal {
+  display: flex;
+  justify-content: center;
+}
+.modal, a.close-modal[class*="icon-"] {
+  position: absolute;
+  display: inline-block;
+  top: 3%;
+  width: 90%;
+  height: 200px;
+  max-width: 90% !important;
+  padding: 0;
+}
+.big-image {
+  width: 100%;
+}
